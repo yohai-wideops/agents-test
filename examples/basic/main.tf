@@ -4,7 +4,7 @@ provider "google" {
 }
 
 module "composer" {
-  source = "../../modules/cloud-composer"
+  source = "../../cloud-composer"
 
   name                       = var.environment_name
   region                     = var.region
